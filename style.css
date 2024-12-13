@@ -1,0 +1,89 @@
+/*
+     give the following specification as 
+     margin and padding as 0;
+        box-sizing  as border-box;
+     font-family as  "Open Sans", sans-serif;
+    
+    
+*/
+
+
+.carousel-item img {
+    width: 100%;
+    height: 93vh;
+}
+
+.About_Us {
+    min-width: 90%;
+    max-height: 700px;
+}
+
+.services .row > * {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row.my-5 {
+    display: flex;
+}
+
+.offer_style {
+    background-color: #cea5c7; 
+}
+
+.Juhuimg {
+    height: 20rem;
+}
+
+.footer {
+    background-color: #808080;
+    text-align: center;
+    margin-bottom: -3rem;
+}
+
+.footer2 {
+    background-color: #808080;
+    text-align: center;
+    margin-top: 13rem;
+}
+
+.card-img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.medium-img {
+    max-height: 500px; 
+    width: auto;
+    object-fit: cover;
+}
+
+/* Responsive CSS code */
+
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for xs since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Add styles for small devices */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* Add styles for medium devices */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* Add styles for large devices */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Add styles for extra-large devices */
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    /* Add styles for extra-extra-large devices */
+}
